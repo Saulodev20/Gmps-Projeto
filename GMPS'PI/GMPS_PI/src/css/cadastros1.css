@@ -1,0 +1,185 @@
+.indicador{
+    margin-top: 110px;
+    margin-left: 50px;
+    text-align: left;
+    color: #184487;
+    font-size: 30px;
+}
+
+/* Estilos específicos para o formulário de cadastro */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.titulos {
+    margin-top: 60px;
+    color: #184487;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.texto{
+    
+    margin-bottom: 20px;
+    color: #184487;
+    
+}
+.campo {
+    color: #000; /* Garanta que o texto digitado seja preto */
+    background-color: #fff; /* Fundo branco */
+    padding: 10px ; /* Ajuste do padding */
+    margin: 2px 10px; /* Margem ao redor dos inputs */
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px; /* Tamanho da fonte para melhor visualização */
+}
+
+
+.formulario {
+    color: #184487;
+    margin-top: 50px;
+    max-width: 10%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+/* Estilos para o container do upload */
+.upload-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Estilos para o input de arquivo */
+.upload-container input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Estilos para o botão de upload */
+.upload-button {
+    background-color: #007bff; /* Cor de fundo (azul) */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilos para o nome do arquivo */
+.file-name {
+    margin-left: 10px;
+}
+
+
+
+
+
+button {
+    background-color: #184487 !important;
+    color: white !important; 
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f8f8f8 !important;
+    color: #184487 !important; /* Mantenha o contraste no hover */
+
+}
+
+/* Estilos para a tabela de produtos cadastrados */
+.table-container {
+    max-width: 400px;
+    overflow-x: auto; /* Para suportar tabelas grandes em dispositivos móveis */
+}
+
+table {
+    align-items: center;
+    width: 95%;
+    margin-left: 50px;
+
+    border-collapse: collapse;
+    border-radius: 25px; /* Bordas arredondadas */
+    overflow: hidden; /* Para bordas arredondadas funcionarem */
+    
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    
+}
+
+th, td {
+    padding: 10px; /* Ajuste do padding */
+    text-align: left;
+    align-items: center;
+}
+
+th {
+    background-color: #184487;
+    color: white;
+    text-align: center;
+}
+
+td {
+    background-color: white;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.actions form {
+    display: inline;
+}
+
+.actions button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Estilo para as células da tabela */
+td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+    text-align: center;
+}

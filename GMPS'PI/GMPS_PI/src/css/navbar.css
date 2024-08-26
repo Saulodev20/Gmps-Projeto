@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #184487;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; /* Alinha logo à esquerda e botões à direita */
+    align-items: center;
+    top: 0;
+    left: 0;    
+    position: fixed;
+    width: 98%;
+}
+
+.logo img {
+    height: 50px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button, .buttonL {
+    background-color: #fff;
+    color: #184487;
+    padding: 8px 15px; /* Ajuste do padding para inputs e botões */
+    margin: 0 5px; /* Espaçamento entre os botões */
+    border-radius: 20px; /* Bordas arredondadas */
+    text-decoration: none;
+    display: flex; /* Para alinhar ícone e texto */
+    align-items: center;
+    font-size: 14px; /* Tamanho do texto */
+}
+
+.button i, .buttonL i {
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+/* Para garantir que o último botão fique na ponta direita */
+.buttons a:last-child {
+    margin-left: auto;
+}
+.botao-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Ajuste o espaço entre os botões */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.botao {
+    background-color: #184487; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 20px 30px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 10px; /* Arredondamento das bordas (ajuste o valor) */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Fonte do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-bottom: 10px; /*distancia*/ 
+}
+
+.botao:hover {
+    background-color: #0f3266; /* Cor de fundo ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.botao i {
+    margin-right: 10px;
+    font-size: 18px; /* Tamanho do ícone */
+}
+
